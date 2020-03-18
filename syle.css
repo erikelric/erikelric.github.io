@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+  background-image: url('https://media.giphy.com/media/NzSUEgbTWB7TW/giphy.gif');
+}
+
+* {
+  margin:0;
+  padding:0;
+  max-width: 100%;
+}
+
+body {
+  background-color: black;
+  padding: 20px;
+  font-family: Arial;
+}
+
+h1 {
+  color: white;
+  position: center;
+}
+
+p {
+color: white;
+font-family: 'Space Mono',
+monospace;
+text-align: center;
+}
+
+#vidstill {
+  margin-top: 40px ;
+  width: 60%
+}
+
+#galaxy {
+  margin-top: 100px ;
+  width: 65%
+}
+
+#bigbang {
+  margin-bottom: 40px;
+}
