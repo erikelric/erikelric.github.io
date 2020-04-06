@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="JAEGER" content="width=device-width, initial-scale=1">
+<script src="three.r95.min.js"></script>
+<script src="vanta.net.min.js"></script>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+body {
+  /* background-color: #F5F5F5; */
+  /* padding: 20px; */
+  font-family: Arial;
+}
+
+#interactive {
+  width: 100vw;
+  height:100vh;
+  position: fixed;
+  z-index: -999;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  /* background-color: white; */
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+  <div id="interactive"></div>
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>JAEGER.COM</h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+<p>Showcase of my work</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/Test_10.jpg" alt="UNIT 10" style="width:100%">
+      <h3>UNIT 10</h3>
+      <p>UNIT 10 describes the relationship between human and machine.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/Test_19.jpg" alt="UNIT 19" style="width:100%">
+      <h3>UNIT 19</h3>
+      <p>The JAEGER units represent the indivual who hides behind a mask to protect himself.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/Test_1.jpg" alt="Guilt" style="width:93%">
+      <h3>UNIT 01</h3>
+      <p>The JAEGER series is a metphorical representation of what people hides behing a mask.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/Test_2.jpg" alt="Smile" style="width:80%">
+      <h3>UNIT 02</h3>
+      <p>Despite the hardship of becoming a JAEGER unit, the individual adapts
+      to the situation and learns to smile.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="images/Test_20.jpg" alt="King" style="width:100%">
+  <h3>The Kind King</h3>
+  <p>The story goes that the king loved his poeple so much that he gave everything
+  to them. But one day, he was left with nothing to give, and his people turn against
+  him. The king was devastated but he knew what he had to do, and with a swing of his
+  sword, he sink his own kingdom burying it in the snow.</p>
+
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+VANTA.NET({
+el: "#interactive",
+mouseControls: true,
+touchControls: true,
+minHeight: 200.00,
+minWidth: 200.00,
+scale: 1.00,
+scaleMobile: 1.00,
+color: 0x939393,
+backgroundColor: 0xdedede,
+points: 9.00,
+maxDistance: 26.00,
+spacing: 18.00
+})
+</script>
+
+</body>
+</html>

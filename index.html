@@ -1,19 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Net.Art Narrative</title>
-  <link rel="stylesheet"
-  type="text/css" href="style.css">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <title>Home page</title>
+  <script src="three.r95.min.js"></script>
+  <script src="vanta.net.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+   data-auto-a11y="true"></script>
+
+  <style>
+    #interactive {
+      width: 100vw;
+      height:100vh;
+      position: fixed;
+      z-index: -999;
+    }
+  </style>
+
 </head>
 <body>
+  <div id="interactive"></div>
+<div class="container">
+  <h1>ERIK SANCHEZ | DIGITAL ARTIST</h1>
+  <ul>
+    <li>
+    <a href="portfolio.html">Portfolio</a>
+    </li>
+    <li id="about"><a href="About.html">About</a></li>
+  </ul>
+</div>
 
-  <center>
-    <h1>T H E U N I V E R S E</h1>
-    <a href="page2.html">
-      <img src="https://i.imgur.com/kJcYZsI.jpg" alt="video still" id="vidstill">
-      </a>
-    <h1>A COLECTION OF SPACE AND TIME.</h1>
-  </center>
+  <footer>
+      <center>
+      <a href="https://www.instagram.com/erikelric"><i class="icon fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/erik-sanchez-1291a9183/"><i class="icon fab fa-linkedin-in"></i></a>
+      </center>
+  </footer>
 
+  <script>
+VANTA.NET({
+  el: "#interactive",
+  mouseControls: true,
+  touchControls: true,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x939393,
+  backgroundColor: 0xdedede,
+  points: 9.00,
+  maxDistance: 26.00,
+  spacing: 18.00
+})
+</script>
 </body>
 </html>

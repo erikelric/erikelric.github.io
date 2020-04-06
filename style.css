@@ -1,43 +1,79 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-body {
-  background-image: url('https://media.giphy.com/media/NzSUEgbTWB7TW/giphy.gif');
-}
-
 * {
-  margin:0;
+  margin: 0;
   padding:0;
   max-width: 100%;
 }
 
 body {
-  background-color: black;
-  padding: 20px;
-  font-family: Arial;
+  overflow-x: hidden;
+
+}
+
+#interactive {
+  width: 100vw;
+  height:100vh;
+  position: fixed;
+  z-index: -999;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
 
 h1 {
-  color: white;
-  position: center;
+  color: black;
+  padding: 45px;
+  padding-left: 0;
+  font-size: 2em;
 }
 
-p {
-color: white;
-font-family: 'Space Mono',
-monospace;
-text-align: center;
+P {
+  padding: 25px;
 }
 
-#vidstill {
-  margin-top: 40px ;
-  width: 60%
+ul {
+color: #fff;
+float: right;
+margin-top: -90px;
 }
 
-#galaxy {
-  margin-top: 100px ;
-  width: 65%
+ul li {
+  float: left;
+  padding: 20px;
+  list-style-type: none;
+  font-size: 1.5em;
 }
 
-#bigbang {
-  margin-bottom: 40px;
+#about {
+  padding-right: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 50px;
+  font-size: 2em;
+}
+
+.icon {
+  padding-right: 20px;
+}
+
+.imagegroup {
+  width: 32%;
+  color: #fff;
+  display: inline-block;
+  padding-bottom: 25px;
+  text-align: center;
+  position: relative;
 }
