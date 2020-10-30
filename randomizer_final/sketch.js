@@ -41,7 +41,7 @@ function setup() {
   frameRate (8);
 
 
-  text("Word Box",width/ 2.5, height / 2);
+  text("SUPER POWER VENING MACHINE",width/ 11, height / 2);
 
   // button = createButton("Click to randomize");
   button = select('#randButton')
