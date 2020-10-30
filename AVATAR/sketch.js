@@ -15,7 +15,7 @@ function setup() {
   angleMode(DEGREES);
 
 
-  createButton("start").mousePressed(startSketch);
+  createButton("CLICK HERE TO INITIATE THE AI").mousePressed(startSketch);
 
 
 
