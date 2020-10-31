@@ -16,207 +16,58 @@
      z-index: -999;
    }
  </style>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-</style>
 </head>
+
 <body>
+  <div id="interactive"></div>
+  <div class="container">
+    <h1>ERIK SANCHEZ</h1>
+    <ul>
+      <li><a href="index.html" class="effect">Home</a></li>
+      <li><a href="portfolio.html" class="effect">Portfolio</a></li>
+      <li id="about"><a href="about.html" class="effect">About</a></li>
+    </ul>
 
-<div id="interactive"></div>
-<div class="container">
-<div class="container">
-  <h1>PORTFOLIO</h1>
-  <ul>
-    <li><a href="index.html" class="effect">Home</a></li>
-    <li><a href="portfolio.html">Portfolio</a></li>
-    <li id="about"><a href="about.html" class="effect">About</a></li>
-  </ul>
+    <center>
+      <h2>Video Editing | Premiere Pro</h2>
 
+      <iframe width="1080" height="500" src="https://www.youtube.com/embed/ijNTuDo7iHQ" frameborder="50" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div class="slideshow-container">
+      <h3><i></i></h3>
 
-<center>
+<h3 class="description">Legacy
+  <br><br>
+In this video, a story is told about a different reality in which humanity suffered the consequences of consuming the natural resources. In this reality, nothing remains except machines who recall the story of what it once was. The final message is intended to create awareness of the consequences if we keep consuming and damaging our planet.
+</h3>
+    </center>
 
-<div class="mySlides fade">
-  <div class="numbertext">1 / 2</div>
-  <img src="images/02.jpg" style="width:35%">
-  <div class="text"></div>
-</div>
+  </div>
 
-<div class="mySlides fade">
-  <div class="numbertext">2 / 2</div>
-  <img src="images/03.jpg" style="width:35%">
-  <div class="text"></div>
-</div>
+    <!-- <footer class="footerflex">
+      <center>
+      <a href="mailto:khatibi.nl@gmail.com?Subject=Hello%20There" target="_top" class="effect"><i class="icon fas fa-envelope"></i></a>
+      <a href="https://www.instagram.com/fewnew/" class="effect"><i class="icon fab fa-instagram"></i></a>
+      </center>
+    </footer> -->
 
-</center>
+    <script>
+    VANTA.NET({
+    el: "#interactive",
+    mouseControls: true,
+    touchControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0x939393,
+    backgroundColor: 0xdedede,
+    points: 9.00,
+    maxDistance: 26.00,
+    spacing: 18.00
+    })
+    </script>
 
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-</div>
-
-<center>
-<h4><i>MEDIUM : PHOTOSHOP</i>, YEAR : 2020</h4>
-</center>
-
-  <p>"Use the arrows on the side to slide to the next illustration"</p>
-<P>A series of illustrations depicting scars on people’s bodies as a representation of the suffering that they have had to endure. This is part of the JAEGER series - a story of my own in current development. In this project, we take an intimate look at what lies underneath the armor.</p>
-
-
-<br>
-
-<!-- <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div> -->
-
-
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-</script>
-
-<script>
-VANTA.NET({
-el: "#interactive",
-mouseControls: true,
-touchControls: true,
-minHeight: 200.00,
-minWidth: 200.00,
-scale: 1.00,
-scaleMobile: 1.00,
-color: 0x939393,
-backgroundColor: 0xdedede,
-points: 9.00,
-maxDistance: 26.00,
-spacing: 18.00
-})
-</script>
+</body>
 
 </body>
 </html>
